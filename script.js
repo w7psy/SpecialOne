@@ -1,4 +1,4 @@
-const correctPassword = "1202"; // Change to your special date
+const correctPassword = "2610"; // Change to your special date
 
 function checkPassword() {
     const input = document.getElementById("password").value;
@@ -15,7 +15,7 @@ function checkPassword() {
 
 document.getElementById("mainContent").style.display = "none";
 
-const text = "For My Beautiful Princess 💖";
+const text = "For My Beautiful Queen 💖";
 let index = 0;
 
 function typeEffect() {
@@ -55,3 +55,4 @@ function showSurprise() {
     document.getElementById("surprise").style.display = "block";
     confetti();
 }
+
