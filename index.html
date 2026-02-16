@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For My Love ❤️</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="password-screen" id="passwordScreen">
+    <h2>Enter Secret Code 💕</h2>
+    <input type="password" id="password" placeholder="Our Special Date">
+    <button onclick="checkPassword()">Unlock 💖</button>
+</div>
+
+<div class="main-content" id="mainContent">
+
+    <audio id="bgMusic" src="music.mp3" loop></audio>
+
+    <section class="hero">
+        <h1 id="typing"></h1>
+        <button onclick="showSurprise()">Open Surprise 🎁</button>
+    </section>
+
+    <section class="letter">
+        <h2>My Love Letter 💌</h2>
+        <p>
+            From the day you came into my life, everything changed.  
+            You are my happiness, my peace, my forever.
+        </p>
+    </section>
+
+    <section class="gallery">
+        <h2>Our Memories 📸</h2>
+        <div class="slider">
+            <img src="images/photo1.jpg" class="slide active">
+            <img src="images/photo2.jpg" class="slide">
+            <img src="images/photo3.jpg" class="slide">
+        </div>
+    </section>
+
+    <section class="timeline">
+        <h2>Our Journey ❤️</h2>
+        <div class="event">✨ First Meet</div>
+        <div class="event">💞 First Date</div>
+        <div class="event">🌹 First "I Love You"</div>
+    </section>
+
+    <div class="surprise" id="surprise">
+        <h1>I Love You Forever ❤️</h1>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
